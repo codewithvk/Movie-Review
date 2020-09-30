@@ -120,7 +120,7 @@ const addMovieHandler = () => {
     imageUrlValue.trim() === '' ||
     ratingValue.trim() === '' ||
     +ratingValue < 1 ||
-    +ratingValue > 5
+    +ratingValue > 5.1
   ) {
     alert('Please enter valid values (rating between 1 and 5).');
     return;
